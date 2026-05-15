@@ -1,22 +1,22 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+	"$schema": "https://biomejs.dev/schemas/2.4.15/schema.json",
 	"files": {
-		"ignore": [
-			"node_modules/**/*",
-			"public/**/*",
-			"plugins/**/*",
-			".cache/**/*",
-			".*",
-			"**/gatsby-types.d.ts"
+		"includes": [
+			"**",
+			"!**/node_modules/**/*",
+			"!**/public/**/*",
+			"!**/plugins/**/*",
+			"!**/.cache/**/*",
+			"!**/.*",
+			"!**/gatsby-types.d.ts"
 		]
 	},
-	"organizeImports": {
-		"enabled": true
+	"assist": { "actions": { "source": { "organizeImports": "on" } } },
+	"formatter": {
+		"indentStyle": "tab"
 	},
 	"linter": {
-		"enabled": true,
 		"rules": {
-			"all": true,
 			"correctness": {
 				"noUnusedImports": {
 					"level": "warn",
@@ -33,20 +33,19 @@
 			}
 		}
 	},
+	"css": {
+		"formatter": {
+			"quoteStyle": "single"
+		},
+		"parser": {
+			"tailwindDirectives": true
+		}
+	},
 	"javascript": {
 		"jsxRuntime": "transparent",
 		"formatter": {
 			"quoteStyle": "single"
 		},
 		"globals": ["Queries", "React"]
-	},
-	"css": {
-		"formatter": {
-			"enabled": true,
-			"quoteStyle": "single"
-		},
-		"linter": {
-			"enabled": true
-		}
 	}
 }
