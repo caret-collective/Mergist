@@ -39,8 +39,7 @@
 		"typecheck": "tsc --noEmit --skipLibCheck",
 		"lint": "biome lint",
 		"lint:write": "biome lint --write",
-		"format:write": "biome format --write",
-		"upgrade-interactive": "bunx npm-check-updates -i --format group -p bun"
+		"format:write": "biome format --write"
 	},
 	"dependencies": {
 		"@fontsource/roboto-condensed": "^5.2.8",
