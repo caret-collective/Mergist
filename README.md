@@ -7,9 +7,9 @@
   </h1>
   <p class="projectBadges info">
     <img src="https://johng.io/badges/category/App.svg" alt="Project category" title="Project category">
-    <img src="https://img.shields.io/github/languages/top/twocaretcat/Mergist.svg" alt="Language" title="Language">
-    <img src="https://img.shields.io/github/repo-size/twocaretcat/Mergist.svg" alt="Repository size" title="Repository size">
-    <a href="LICENSE"><img src="https://img.shields.io/github/license/twocaretcat/Mergist.svg" alt="Project license" title="Project license"/></a>
+    <img src="https://img.shields.io/github/languages/top/caret-collective/Mergist.svg" alt="Language" title="Language">
+    <img src="https://img.shields.io/github/repo-size/caret-collective/Mergist.svg" alt="Repository size" title="Repository size">
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/caret-collective/Mergist.svg" alt="Project license" title="Project license"/></a>
   </p>
 	<p class="projectBadges status">
 		<a href="https://mergist.johng.io" title="Mergist - Online PDF Merger"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmergist.johng.io&up_message=mergist.johng.io%20%E2%86%97" alt="Project URL" title="Project URL"></a>
@@ -72,7 +72,7 @@ Here is an overview of how the app works:
 2. **Clone the repository**
 
    ```sh
-   git clone https://github.com/twocaretcat/Mergist.git
+   git clone https://github.com/caret-collective/Mergist.git
    cd Mergist
    ```
 
@@ -141,7 +141,7 @@ The `Privacy` and `About` buttons open modals to view the privacy policy and inf
 
 ## 🛟 Support
 
-Need help? See the [support resources](https://github.com/twocaretcat/.github/blob/main/docs/SUPPORT.md) for information on how to:
+Need help? See the [support resources](https://github.com/caret-collective/.github/blob/main/docs/SUPPORT.md) for information on how to:
 
 - request features
 - report bugs
@@ -175,7 +175,7 @@ This project includes various resources which carry their own copyright notices 
 Other projects you might like:
 
 - **👤 [Tally](https://tally.johng.io/r/mergist)**: Your favorite dark mode word counter, now with even more themes! Count the number of characters, words, sentences, paragraphs, and lines in your text instantly with Tally
-- **👤 [Shared File Finder for Google Drive](https://github.com/twocaretcat/Shared-File-Finder-for-Google-Drive)**: An Apps Script that finds all files/folders on Google Drive that are shared with others and adds them to a Google Sheet
+- **👤 [Shared File Finder for Google Drive](https://github.com/caret-collective/Shared-File-Finder-for-Google-Drive)**: An Apps Script that finds all files/folders on Google Drive that are shared with others and adds them to a Google Sheet
 
 ## 💕 Funding
 

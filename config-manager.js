@@ -20,7 +20,7 @@ const config = {
 		ogImageUrl: 'images/og-image.png',
 		ogImageAltText: 'Mergist logo',
 		siteUrl: 'https://mergist.johng.io/',
-		githubUrl: 'https://github.com/twocaretcat/mergist/',
+		githubUrl: 'https://github.com/caret-collective/mergist/',
 		homepageDomain: 'johng.io',
 	},
 	theme: {
