@@ -1,16 +1,10 @@
-# NPM
+# Dependencies
 node_modules/
-.cache/
-
-# Yarn
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
 
 # Gatsby
-public
+.cache/
+public/
+
+# Environment
+.env
 .env.*
