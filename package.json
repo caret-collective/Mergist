@@ -3,8 +3,31 @@
 	"version": "1.0.0",
 	"private": true,
 	"description": "Mergist is an online tool to combine multiple PDF files into one",
-	"author": "John Goodliff (https://johng.io)",
-	"license": "MIT",
+	"homepage": "https://mergist.johng.io",
+	"bugs": "https://github.com/caret-collective/Mergist/issues",
+	"license": "AGPL-3.0-only",
+	"author": {
+		"name": "John Goodliff",
+		"url": "https://johng.io"
+	},
+	"funding": [
+		{
+			"type": "individual",
+			"url": "https://johng.io/funding"
+		},
+		{
+			"type": "GitHub Sponsors",
+			"url": "https://github.com/sponsors/twocaretcat"
+		},
+		{
+			"type": "Patreon",
+			"url": "https://patreon.com/twocaretcat"
+		},
+		{
+			"type": "Brave Creators",
+			"url": "https://publishers.basicattentiontoken.org/en/c/johng"
+		}
+	],
 	"keywords": [
 		"mergist",
 		"react",
@@ -28,7 +51,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/caret-collective/Mergist.git"
+		"url": "git+https://github.com/caret-collective/Mergist.git"
 	},
 	"scripts": {
 		"develop": "gatsby develop -H 0.0.0.0",
